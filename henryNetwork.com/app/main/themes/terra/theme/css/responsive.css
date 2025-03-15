@@ -1,0 +1,164 @@
+@media (min-width: 992px) {
+    .lg\:d-flex {
+        display: flex;
+    }
+
+    .lg\:ms-3 {
+        margin-left: 0.75rem;
+    }
+
+    .lg\:w-75 {
+        width: 75%;
+    }
+
+    .lg\:mt-13 {
+        margin-top: 4rem;
+    }
+
+    .lg\:ms-10 {
+        margin-left: 2.5rem;
+    }
+
+    .lg\:my-10 {
+        margin-top: 2.5rem !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .lg\:mx-10 {
+        margin-right: 2.5rem !important;
+        margin-left: 2.5rem !important;
+    }
+
+    .store-thumb-slider .swiper-wrapper {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .store-in-page .store-thumb-slider .swiper-wrapper {
+        width: 0 !important;
+        margin: 0 !important;
+    }
+
+    .store-in-page .swiper-slide.w-120px {
+        width: 120px !important;
+    }
+
+    .shopping-button {
+        margin-bottom: 1rem;
+    }
+
+    .navbar-profile {
+        margin-left: 0 !important;
+    }
+
+    .home-slogan {
+        text-align: center;
+    }
+
+    .store-in-page .swiper-slide .store-img {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 12px !important;
+    }
+
+    .slider-section .swiper-slide:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background: black;
+        left: 0rem;
+        height: 200%;
+        filter: blur(3px);
+        opacity: 0.8;
+        top: 0;
+        bottom: 0;
+    }
+
+    .slider-section .font-size-40 {
+        font-size: 26px;
+    }
+
+    .why-choose-us {
+        text-align: center;
+    }
+
+    .have-any-quest {
+        text-align: center;
+    }
+
+    .customer-comments {
+        text-align: center;
+    }
+
+    .our-references {
+        text-align: center;
+    }
+
+    .want-to-see-our-products {
+        text-align: center;
+    }
+
+    .slider-section .font-size-22 {
+        font-size: 14px;
+        color: var(--card-color-2) !important;
+    }
+
+    .slider-section .container > .swiper {
+        height: 400px !important;
+    }
+
+    .slider-section .text-slider {
+        height: 400px !important;
+        margin-left: 0rem !important;
+        padding-left: 16px !important;
+        padding-right: 16px;
+    }
+
+    .home-first-top {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .md\:d-none {
+        display: none;
+    }
+
+    .login-right:before {
+        display: none !important;
+    }
+
+    .md\:mt-2 {
+        margin-top: 1rem;
+    }
+
+    .md\:w-100 {
+        width: 100%;
+    }
+
+    section.store-categories-section .card.me-2.mb-2 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .mobile-d-grid {
+        display: grid;
+        justify-items: center;
+    }
+
+    .mobile-d-grid p {
+        text-align: center;
+    }
+
+    .circle-store .text.align-self-center {
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+
+    .store-main-slider .swiper-wrapper {
+        max-height: 100% !important;
+        max-width: 100px !important;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+}
